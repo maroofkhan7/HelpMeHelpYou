@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title id="title-tag">Help me Help you — Admin</title>
+  <link rel="icon" href="icon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-section">
+        <img src="assests/logo.png" alt="Help me Help you Logo" class="logo" />
+        <a class="brand" href="index.html" id="brand-text">Help me Help you</a>
+      </div>
+      <nav class="nav" id="nav-menu">
+        <a href="index.html" data-en="Home" data-hi="होम" data-mr="मुख्यपृष्ठ">Home</a>
+        <a href="about.html" data-en="About" data-hi="हमारे बारे में" data-mr="आमच्याबद्दल">About</a>
+        <a href="donate.html" class="btn btn-primary" data-en="Donate" data-hi="दान करें" data-mr="दान करा">Donate</a>
+        <a href="contact.html" data-en="Contact" data-hi="संपर्क" data-mr="संपर्क">Contact</a>
+        <select id="language-select" class="language-select">
+          <option value="en" data-en="English" data-hi="अंग्रेजी" data-mr="इंग्लिश">English</option>
+          <option value="hi" data-en="Hindi" data-hi="हिंदी" data-mr="हिंदी">हिंदी</option>
+          <option value="mr" data-en="Marathi" data-hi="मराठी" data-mr="मराठी">मराठी</option>
+        </select>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-header">
+      <h1 data-en="Admin Panel" data-hi="एडमिन पैनल" data-mr="एडमिन पॅनल">Admin Panel</h1>
+      <p data-en="Administrative dashboard for Help me Help you" data-hi="Help me Help you के लिए प्रशासनिक डैशबोर्ड" data-mr="Help me Help you साठी प्रशासकीय डैशबोर्ड">Administrative dashboard for Help me Help you</p>
+    </section>
+
+    <!-- Admin content will be added here -->
+    <section class="card">
+      <h2 data-en="Dashboard" data-hi="डैशबोर्ड" data-mr="डॅशबोर्ड">Dashboard</h2>
+      <p data-en="This is a placeholder for admin panel content." data-hi="यह एडमिन पैनल सामग्री के लिए एक प्लेसहोल्डर है।" data-mr="हा एडमिन पॅनल सामग्रीसाठी प्लेसहोल्डर आहे.">This is a placeholder for admin panel content.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-section">
+          <p>© <span id="year"></span> <span data-en="Help me Help you NGO" data-hi="Help me Help you NGO" data-mr="Help me Help you NGO">Help me Help you NGO</span> — Nagpur, MH</p>
+        </div>
+        <div class="footer-section socials">
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/GauravPrakashKohale" target="_blank" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html" data-en="Home" data-hi="होम" data-mr="मुख्यपृष्ठ">Home</a>
+        <a href="about.html" data-en="About" data-hi="हमारे बारे में" data-mr="आमच्याबद्दल">About</a>
+        <a href="donate.html" data-en="Donate" data-hi="दान करें" data-mr="दान करा">Donate</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="translations.js"></script>
+</body>
+</html>
