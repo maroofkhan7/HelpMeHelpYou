@@ -213,4 +213,12 @@ input:focus,select:focus,textarea:focus{outline:2px solid #ffd1d1;border-color:v
   .grid.two{gap:16px}
   .brand-section{gap:8px}
   .logo{height:32px}
+
+}
+
+.btn-primary{
+  background:#ffffff;
+  color:var(--red);
+  border:2px solid var(--red);
+  animation:pulse 2s infinite;
 }
