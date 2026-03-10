@@ -216,17 +216,4 @@ input:focus,select:focus,textarea:focus{outline:2px solid #ffd1d1;border-color:v
 
 }
 
-.btn-primary{
-  background:#ffffff;
-  color:var(--red);
-  border:2px solid var(--red);
-  animation:pulse 2s infinite;
-}
-
-.btn-primary:hover{
-  background:var(--red);
-  color:#ffffff;
-  transform:translateY(-2px);
-  box-shadow:0 5px 15px rgba(198,40,40,0.3);
-}
 
