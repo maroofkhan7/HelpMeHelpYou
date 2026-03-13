@@ -3,107 +3,144 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title id="title-tag">Help me Help you NGO</title>
+  <title>Help me Help you NGO</title>
   <link rel="icon" href="icon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand-section">
-        <img src="assets/logo.png" alt="Help me Help you Logo" class="logo" />
-        <a class="brand" href="index.html" id="brand-text">Help me Help you</a>
-      </div>
-      <nav class="nav" id="nav-menu">
-        <a href="index.html" class="active" data-en="Home" data-hi="होम" data-mr="मुख्यपृष्ठ">Home</a>
-        <a href="about.html" data-en="About" data-hi="हमारे बारे में" data-mr="आमच्याबद्दल">About</a>
-        <a href="donate.html" class="btn btn-primary" data-en="Volunteer" data-hi="दान करें" data-mr="दान करा">Volunteer</a>
-        <a href="contact.html" data-en="Contact" data-hi="संपर्क" data-mr="संपर्क">Contact</a>
-        <select id="language-select" class="language-select">
-          <option value="en" data-en="English" data-hi="अंग्रेजी" data-mr="इंग्लिश">English</option>
-          <option value="hi" data-en="Hindi" data-hi="हिंदी" data-mr="हिंदी">हिंदी</option>
-          <option value="mr" data-en="Marathi" data-hi="मराठी" data-mr="मराठी">मराठी</option>
-        </select>
-      </nav>
-      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand-section">
+      <img src="logo.png" alt="Help me Help you Logo" class="logo" />
+      <a class="brand" href="index.html">Help me Help you</a>
     </div>
-  </header>
+    <nav class="nav" id="nav-menu">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="volunteer.html">Volunteer</a>
+      <a href="impact.html">Impact Map</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <h1 data-en="Donate blood—save lives" data-hi="रक्त दान करें—जीवन बचाएं" data-mr="रक्त दान करा—जीवन वाचवा">Donate blood—save lives</h1>
-        <p data-en="Every unit of blood can help up to three people. Join our mission to make safe blood available for everyone in need." data-hi="रक्त की हर यूनिट तीन लोगों की मदद कर सकती है। सभी जरूरतमंदों के लिए सुरक्षित रक्त उपलब्ध कराने के हमारे मिशन में शामिल हों।" data-mr="रक्ताचे प्रत्येक युनिट तीन लोकांना मदत करू शकते. सर्वांसाठी सुरक्षित रक्त उपलब्ध करण्याच्या आमच्या मिशनमध्ये सामील व्हा.">Every unit of blood can help up to three people. Join our mission to make safe blood available for everyone in need.</p>
-        <div class="hero-actions">
-          <a href="donate.html" class="btn btn-primary" data-en="Become a Volunteer" data-hi="दान अनुसूचित करें" data-mr="दान शेड्यूल करा">Become a Volunteer</a>
-          <a href="about.html" class="btn btn-outline" data-en="Learn more" data-hi="और जानें" data-mr="अधिक जाना">Learn more</a>
-        </div>
+<main>
+
+  <section class="hero">
+    <div class="hero-deco hero-deco-1"></div>
+    <div class="hero-deco hero-deco-2"></div>
+    <div class="hero-deco hero-deco-3"></div>
+    <div class="hero-deco hero-deco-4"></div>
+    <div class="container hero-inner">
+      <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>Nagpur, Maharashtra</div>
+      <h1>Make a Difference in<br><em>Someone's Life</em></h1>
+      <p>Join our NGO initiatives including blood donation camps, health camps, environment drives and social welfare programs.</p>
+      <div class="hero-actions">
+        <a href="volunteer.html" class="btn btn-primary"><i class="fas fa-hands-helping"></i> Become a Volunteer</a>
+        <a href="about.html" class="btn btn-outline">Learn more <i class="fas fa-arrow-right"></i></a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="socials-banner">
+  <div class="container">
+    <div class="socials-banner">
       <div class="socials-content">
-        <p data-en="Follow us on social media" data-hi="सोशल मीडिया पर हमें फॉलो करें" data-mr="सोशल मीडियावर आमचे अनुसरण करा">Follow us on social media</p>
+        <p><i class="fas fa-heart" style="color:var(--red);margin-right:8px"></i>Follow us on social media</p>
         <div class="socials-icons">
-          <a href="https://youtube.com" target="_blank" aria-label="YouTube" title="YouTube"><i class="fab fa-youtube"></i></a>
-          <a href="https://www.facebook.com/GauravPrakashKohale" target="_blank" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="https://instagram.com" target="_blank" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/GauravPrakashKohale" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
-    </section>
-      <div class="feature">
-        <h3 data-en="Community drives" data-hi="सामुदायिक अभियान" data-mr="समुदाय ड्राइव्स">Community drives</h3>
-        <p data-en="We organize regular blood donation camps across Nagpur with trained staff and strict safety protocols." data-hi="हम नागपुर में प्रशिक्षित कर्मचारियों और सख्त सुरक्षा प्रोटोकॉल के साथ नियमित रक्त दान शिविर आयोजित करते हैं।" data-mr="आम्ही नागपूर मध्ये प्रशिक्षित कर्मचारी आणि कठोर सुरक्षा प्रोटोकॉलसह नियमित रक्त दान शिविर आयोजित करतो.">We organize regular blood donation camps across Nagpur with trained staff and strict safety protocols.</p>
-      </div>
-      <div class="feature">
-        <h3 data-en="Transparent impact" data-hi="पारदर्शी प्रभाव" data-mr="पारदर्शक प्रभाव">Transparent impact</h3>
-        <p data-en="We publish monthly reports on units collected, hospitals supported, and lives helped." data-hi="हम एकत्रित इकाइयों, समर्थित अस्पतालों और सहायक जीवन पर मासिक रिपोर्ट प्रकाशित करते हैं।" data-mr="आम्ही एकत्रित यूनिट्स, समर्थित रुग्णालय आणि मदत केलेल्या जीवनावर मासिक अहवाल प्रकाशित करतो.">We publish monthly reports on units collected, hospitals supported, and lives helped.</p>
-      </div>
-      <div class="feature">
-        <h3 data-en="Volunteer network" data-hi="स्वयंसेवक नेटवर्क" data-mr="स्वयंसेवक नेटवर्क">Volunteer network</h3>
-        <p data-en="Volunteers help with registrations, awareness, and donor care—join the team and amplify the impact." data-hi="स्वयंसेवक पंजीकरण, जागरूकता और दाता देखभाल में सहायता करते हैं। टीम में शामिल हों और प्रभाव को बढ़ाएं।" data-mr="स्वयंसेवक नोंदणी, जागरूकता आणि दाता काळजीमध्ये मदत करता. टीमला सामील व्हा आणि प्रभाव वाढवा.">Volunteers help with registrations, awareness, and donor care—join the team and amplify the impact.</p>
-      </div>
-    </section>
-
-    <section class="cta container">
-      <h2 data-en="Ready to make a difference?" data-hi="बदलाव लाने के लिए तैयार हैं?" data-mr="फरक घडवायला तयार आहात?">Ready to make a difference?</h2>
-      <p data-en="It takes about 30 minutes to donate. You'll get guidance, refreshments, and a quick health check." data-hi="दान करने में लगभग 30 मिनट लगते हैं। आपको मार्गदर्शन, तरोताजा करने और त्वरित स्वास्थ्य जांच मिलेगी।" data-mr="दान करायला सुमारे 30 मिनिटे लागतात. तुम्हाला मार्गदर्शन, ताज्या पेय आणि द्रुत स्वास्थ्य तपासणी मिळेल.">It takes about 30 minutes to donate. You'll get guidance, refreshments, and a quick health check.</p>
-      <a href="donate.html" class="btn btn-primary" data-en="I'm in" data-hi="मैं हूं" data-mr="मी आहे">I'm in</a>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-top">
-        <div class="footer-section">
-          <p>© <span id="year"></span> <span data-en="Help me Help you NGO" data-hi="Help me Help you NGO" data-mr="Help me Help you NGO">Help me Help you NGO</span> — Nagpur, MH</p>
-        </div>
-        <div class="footer-section socials">
-          <a href="https://youtube.com" target="_blank" aria-label="YouTube" title="YouTube"><i class="fab fa-youtube"></i></a>
-          <a href="https://www.facebook.com/GauravPrakashKohale" target="_blank" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="https://instagram.com" target="_blank" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-      <nav class="footer-nav">
-        <a href="about.html" data-en="About" data-hi="हमारे बारे में" data-mr="आमच्याबद्दल">About</a>
-        <a href="donate.html" data-en="Volunteer" data-hi="दान करें" data-mr="दान करा">Volunteer</a>
-        <a href="contact.html" data-en="Contact" data-hi="संपर्क" data-mr="संपर्क">Contact</a>
-        <a href="admin.html" data-en="Admin" data-hi="प्रशासन" data-mr="प्रशासन">Admin</a>
-      </nav>
     </div>
-  </footer>
+  </div>
 
-  <script src="script.js"></script>
-  <script src="translations.js"></script>
+  <section class="container">
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🩸</div>
+        <h3>Community Drives</h3>
+        <p>We organise regular blood donation camps across Nagpur with trained staff and strict safety protocols.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📊</div>
+        <h3>Transparent Impact</h3>
+        <p>We publish monthly reports on units collected, hospitals supported, and lives helped.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🤝</div>
+        <h3>Volunteer Network</h3>
+        <p>Volunteers help with registrations, awareness, and donor care — join the team and amplify the impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="stats-row">
+      <div class="stat-box"><span class="stat-num">500+</span><div class="stat-label">Blood units collected</div></div>
+      <div class="stat-box"><span class="stat-num">30+</span><div class="stat-label">Events organised</div></div>
+      <div class="stat-box"><span class="stat-num">1000+</span><div class="stat-label">Lives impacted</div></div>
+    </div>
+  </section>
+
+  <section class="facts-section container">
+    <div class="facts-header">
+      <div class="page-header-eyebrow" style="margin-bottom:14px">Did you know?</div>
+      <h2 class="section-title">Facts about blood donation</h2>
+      <p class="section-sub">Every donation tells a story. Here's why it matters more than most people realise.</p>
+    </div>
+    <div class="facts-grid">
+      <div class="fact-card fact-card--large">
+        <div class="fact-card-icon">🩸</div>
+        <div class="fact-card-num">1 in 3</div>
+        <p>People will need a blood transfusion at some point in their lifetime — making each donation more vital than you think.</p>
+      </div>
+      <div class="fact-card">
+        <div class="fact-card-icon">⏱️</div>
+        <div class="fact-card-num">30 min</div>
+        <p>Is all it takes to donate — and your blood can last up to 42 days.</p>
+      </div>
+      <div class="fact-card">
+        <div class="fact-card-icon">👥</div>
+        <div class="fact-card-num">3 lives</div>
+        <p>Can be saved from a single donation, as blood is separated into components.</p>
+      </div>
+      <div class="fact-card">
+        <div class="fact-card-icon">🔄</div>
+        <div class="fact-card-num">56 days</div>
+        <p>Is how long you wait between whole blood donations — completely safe.</p>
+      </div>
+      <div class="fact-card fact-card--accent">
+        <div class="fact-card-icon">❤️</div>
+        <div class="fact-card-num">O–</div>
+        <p>Is the universal donor blood type, compatible with all patients in emergencies.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-bottom">
+      <div class="footer-left">
+        <a href="admin.html" class="footer-admin-link"><i class="fas fa-lock"></i> Admin</a>
+      </div>
+      <div class="footer-right">
+        <p style="margin:0;color:var(--muted);font-size:0.87rem">© <span id="year"></span> Help me Help you NGO — Nagpur, MH</p>
+        <div class="socials">
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/GauravPrakashKohale" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
